@@ -1,4 +1,4 @@
-package petproject.telegrambot.openai;
+package petproject.telegrambot.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

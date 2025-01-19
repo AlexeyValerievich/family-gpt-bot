@@ -1,10 +1,9 @@
-package petproject.telegrambot.openai;
+package petproject.telegrambot.api;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.*;
 
 import java.util.List;
 
-public record ChatCompletionObject (
+public record ChatComplectionResponse(
         @JsonProperty("choices") List<Choices> choices
 ){}
